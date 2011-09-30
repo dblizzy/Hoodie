@@ -1,26 +1,33 @@
-/*!
- * Bootstrap @VERSION
- *
- * Copyright 2011 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- * Date: @DATE
- */
+/*
+------------------------------
+.   .              .          
+|   |              |   o      
+|---| .-.  .-.  .-.|   .  .-. 
+|   |(   )(   )(   |   | (.-' 
+'   ' `-'  `-'  `-'`--' `-`--'
+------------------------------
+ The Comfy HTML/CSS Framework 
+------------------------------
 
-// CSS Reset
-@import "reset.less";
+  @author   Craig Waterman / @ckh2oman / craigwaterman.com
+  @author   Dan Rose / @dblizzy / danroseonline.com
+  @git      https://github.com/craigwaterman/Hoodie
+  @license  See LICENSE and ATTRIBUTION
+  @todo     Merge and/or cleanup of styling and type. Lots of messy overlap.
 
-// Core variables and mixins
-@import "variables.less"; // Modify this for custom colors, font-sizes, etc
-@import "mixins.less";
+*/
 
-// Grid system and page structure
-@import "scaffolding.less";
+@import "reset";          // Every reset, mashed into one gooey file.
 
-// Styled patterns and elements
-@import "type.less";
-@import "forms.less";
-@import "tables.less";
-@import "patterns.less";
+@import "variables";      // Named colors and font sizes.
+@import "mixins";         // Re-usable bits for borders, gradients and more.
+
+@import "layout";         // The responsive 960 grid layout.
+@import "layout_custom";  // Your custom grid media queries.
+
+@import "styling"         // Styles, Basil, styles.
+
+@import "type";           // Typographic considerations. 
+@import "forms";          // Form styling
+@import "tables";         // Table styling. No, really.
+@import "ui";             // UI elements
