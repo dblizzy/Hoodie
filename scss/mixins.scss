@@ -129,6 +129,7 @@
   border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) opacify(rgba(0,0,0,.1), 15%);
 }
 
+
 // Gradients
 @mixin grad-horizontal ($startColor: #555, $endColor: #333) {
 	background-color: $endColor;
