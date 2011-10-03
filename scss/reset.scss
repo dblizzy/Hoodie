@@ -1,11 +1,22 @@
-/*	reset.scss 
-	Reset CSS modified to remove duplication between reset.css and normalize.css
-	Normalize CSS modified to remove styling defaults (e.g. color)
-*/
+/*
+------------------------------
+.   .              .          
+|   |              |   o      
+|---| .-.  .-.  .-.|   .  .-. 
+|   |(   )(   )(   |   | (.-' 
+'   ' `-'  `-'  `-'`--' `-`--'
+------------------------------
+ The Comfy HTML/CSS Framework 
+------------------------------
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+  @author   Craig Waterman / @ckh2oman / craigwaterman.com
+  @author   Dan Rose / @dblizzy / danroseonline.com
+  @git      https://github.com/craigwaterman/Hoodie
+  @license  See LICENSE and ATTRIBUTION
+
+  @file     reset.scss
+  @info     Merger of Eric Meyer's Reset CSS and normalize.css
+
 */
 
 html, body, div, span, applet, object, iframe,
@@ -46,7 +57,6 @@ q:before, q:after {
 
 
 
-/*! normalize.css 2011-09-22T17:42 UTC - http://github.com/necolas/normalize.css */
 
 /* =============================================================================
    HTML5 display definitions

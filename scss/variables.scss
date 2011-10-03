@@ -1,4 +1,23 @@
-/* variables.scss */
+/*
+------------------------------
+.   .              .          
+|   |              |   o      
+|---| .-.  .-.  .-.|   .  .-. 
+|   |(   )(   )(   |   | (.-' 
+'   ' `-'  `-'  `-'`--' `-`--'
+------------------------------
+ The Comfy HTML/CSS Framework 
+------------------------------
+
+  @author   Craig Waterman / @ckh2oman / craigwaterman.com
+  @author   Dan Rose / @dblizzy / danroseonline.com
+  @git      https://github.com/craigwaterman/Hoodie
+  @license  See LICENSE and ATTRIBUTION
+
+  @file     variables.scss
+  @info     Common variables. Derived from Bootstrap.
+
+*/
 
 // Links
 $linkColor:         #0069d6;
@@ -26,16 +45,4 @@ $purple:            #7a43b6;
 $baseFontSize:		13px;
 $baseLineHeight:	18px;
 
-// Color Scheme
-// Use this to roll your own color schemes if you like (unused by Hoodie by default)
-$baseColor:         $blue;                  // Set a base color
-$complement:        complement($baseColor, 180);  // Determine a complementary color
-$split1:            complement($baseColor, 158);  // Split complements
-$split2:            complement($baseColor, -158);
-$triad1:            complement($baseColor, 135);  // Triads colors
-$triad2:            complement($baseColor, -135);
-$tetra1:            complement($baseColor, 90);   // Tetra colors
-$tetra2:            complement($baseColor, -90);
-$analog1:           complement($baseColor, 22);   // Analogs colors
-$analog2:           complement($baseColor, -22);
 
