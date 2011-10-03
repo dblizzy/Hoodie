@@ -81,7 +81,7 @@
 	font-weight: $weight;
 	line-height: $lineHeight;
 }
-@mixin fpmt=monospace($weight: normal, $size: 12px, $lineHeight: 20px) {
+@mixin font-monospace($weight: normal, $size: 12px, $lineHeight: 20px) {
 	font-family: "Monaco", Courier New, monospace;
 	font-size: $size;
 	font-weight: $weight;
@@ -142,7 +142,7 @@
   @include grad-vertical($primaryColor, $secondaryColor);
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   border-color: $secondaryColor $secondaryColor darken($secondaryColor, 15%);
-  border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) opacify(rgba(0,0,0,.1), 15%);
+  border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) opacify(rgba(0,0,0,.1), .15);
 }
 
 

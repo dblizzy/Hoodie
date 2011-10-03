@@ -1,23 +1,23 @@
-/*
-------------------------------
-.   .              .          
-|   |              |   o      
-|---| .-.  .-.  .-.|   .  .-. 
-|   |(   )(   )(   |   | (.-' 
-'   ' `-'  `-'  `-'`--' `-`--'
-------------------------------
- The Comfy HTML/CSS Framework 
-------------------------------
-
-  @author   Craig Waterman / @ckh2oman / craigwaterman.com
-  @author   Dan Rose / @dblizzy / danroseonline.com
-  @git      https://github.com/craigwaterman/Hoodie
-  @license  See LICENSE and ATTRIBUTION
-
-  @file     hoodie.scss
-  @info     Main entry point to Hoodie. Derived from Bootstrap.
-
-*/
+//
+//  ------------------------------
+//  .   .              .          
+//  |   |              |   o      
+//  |---| .-.  .-.  .-.|   .  .-. 
+//  |   |(   )(   )(   |   | (.-' 
+//  '   ' `-'  `-'  `-'`--' `-`--'
+//  ------------------------------
+//   The Comfy HTML/CSS Framework 
+//  ------------------------------
+//
+//  @author   Craig Waterman / @ckh2oman / craigwaterman.com
+//  @author   Dan Rose / @dblizzy / danroseonline.com
+//  @git      https://github.com/craigwaterman/Hoodie
+//  @license  See LICENSE and ATTRIBUTION
+//
+//  @file     hoodie.scss
+//  @info     Main entry point to Hoodie. Derived from Bootstrap.
+//
+//
 
 @import "reset";          // Every reset, mashed into one gooey file.
 
@@ -27,7 +27,7 @@
 @import "layout";         // The responsive 960 grid layout.
 @import "layout_custom";  // Your custom grid media queries.
 
-@import "styling"         // Styles, Basil, styles.
+@import "styling";        // Styles, Basil, styles.
 
 @import "type";           // Typographic considerations. 
 @import "forms";          // Form styling

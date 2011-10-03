@@ -170,7 +170,7 @@ textarea:focus {
 input[type=file]:focus,
 input[type=checkbox]:focus,
 select:focus {
-  @includebox-shadow(none); // override for file inputs
+  @include box-shadow(none); // override for file inputs
   outline: 1px dotted #666; // Selet elements don't get box-shadow styles, so instead we do outline
 }
 

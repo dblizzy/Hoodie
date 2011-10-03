@@ -889,7 +889,7 @@ input[type=submit].btn {
   padding: 5px;
   font-size: 11px;
   z-index: 1000;
-  .opacity(80);
+  @include opacity(80);
   &.fade.in {
     @include opacity(80);
   }
