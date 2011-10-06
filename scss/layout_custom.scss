@@ -1,24 +1,24 @@
-/*
-------------------------------
-.   .              .          
-|   |              |   o      
-|---| .-.  .-.  .-.|   .  .-. 
-|   |(   )(   )(   |   | (.-' 
-'   ' `-'  `-'  `-'`--' `-`--'
-------------------------------
- The Comfy HTML/CSS Framework 
-------------------------------
+// 
+//  ------------------------------
+//  .   .              .          
+//  |   |              |   o      
+//  |---| .-.  .-.  .-.|   .  .-. 
+//  |   |(   )(   )(   |   | (.-' 
+//  '   ' `-'  `-'  `-'`--' `-`--'
+//  ------------------------------
+//   The Comfy HTML/CSS Framework 
+//  ------------------------------
+// 
+//   @author   Craig Waterman / @ckh2oman / craigwaterman.com
+//   @author   Dan Rose / @dblizzy / danroseonline.com
+//   @git      https://github.com/craigwaterman/Hoodie
+//   @license  See LICENSE and ATTRIBUTION
+// 
+//   @file     layout_custom.scss
+//   @info     Custom media queries for your responsive layout.
+//             Derived from Skeleton.
+// 
 
-  @author   Craig Waterman / @ckh2oman / craigwaterman.com
-  @author   Dan Rose / @dblizzy / danroseonline.com
-  @git      https://github.com/craigwaterman/Hoodie
-  @license  See LICENSE and ATTRIBUTION
-
-  @file     layout_custom.scss
-  @info     Custom media queries for your responsive layout.
-            Derived from Skeleton.
-
-*/
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {

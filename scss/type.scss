@@ -1,26 +1,95 @@
-/*
-------------------------------
-.   .              .          
-|   |              |   o      
-|---| .-.  .-.  .-.|   .  .-. 
-|   |(   )(   )(   |   | (.-' 
-'   ' `-'  `-'  `-'`--' `-`--'
-------------------------------
- The Comfy HTML/CSS Framework 
-------------------------------
+// 
+//  ------------------------------
+//  .   .              .          
+//  |   |              |   o      
+//  |---| .-.  .-.  .-.|   .  .-. 
+//  |   |(   )(   )(   |   | (.-' 
+//  '   ' `-'  `-'  `-'`--' `-`--'
+//  ------------------------------
+//   The Comfy HTML/CSS Framework 
+//  ------------------------------
+// 
+//   @author   Craig Waterman / @ckh2oman / craigwaterman.com
+//   @author   Dan Rose / @dblizzy / danroseonline.com
+//   @git      https://github.com/craigwaterman/Hoodie
+//   @license  See LICENSE and ATTRIBUTION
+// 
+//   @file     type.scss
+//   @info     Typography styles. Derived from Bootstrap.
+//
 
-  @author   Craig Waterman / @ckh2oman / craigwaterman.com
-  @author   Dan Rose / @dblizzy / danroseonline.com
-  @git      https://github.com/craigwaterman/Hoodie
-  @license  See LICENSE and ATTRIBUTION
+body {
+  font: #{$baseFontSize} / #{$baseLineHeight} "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  background-color: red;
+}
 
-  @file     reset.scss
-  @info     Typography styles. Derived from Bootstrap.
 
-*/
+/*	Blockquotes  */
 
-// BODY TEXT
-// ---------
+blockquote {
+  font-size: 17px;
+  line-height: 24px;
+  color: #777;
+  font-style: italic;
+  p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #777;
+    font-style: italic; }
+  margin: 0 0 20px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid #ddd;
+  cite {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    &:before {
+      content: "\2014 \0020"; }
+    a {
+      color: #555;
+      &:visited {
+        color: #555; } } } }
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+
+
+/* #Links
+================================================== */
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  line-height: inherit;
+  font-weight: inherit;
+  &:hover {
+    color: $linkColorHover;
+    text-decoration: underline;
+  }
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+  outline: 0;
+  &:visited {
+    color: #333;
+    text-decoration: underline;
+    outline: 0; }
+  &:hover, &:focus {
+    color: #000; } }
+
+p a {
+  line-height: inherit;
+  &:visited {
+    line-height: inherit; } }
 
 p {
   @include font-shorthand(normal,$baseFontSize,$baseLineHeight);
