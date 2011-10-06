@@ -318,3 +318,25 @@ img.large-bird {
 pre.prettyprint {
   overflow: hidden;
 }
+
+/*Skeleton Grid
+-------------------------------------------------- */
+    #grid .column,
+    #grid .columns { 
+        background: #ddd; 
+        height: 25px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase; 
+        color: #555; 
+        font-size: 12px; 
+        font-weight: bold;
+        -moz-border-radius: 2px;
+         -webkit-border-radius: 2px;
+         border-radius: 2px; }
+    #grid .column:hover,
+    #grid .columns:hover { 
+        background: #bbb; 
+        color: #333; }
+    #grid .example-grid { overflow: hidden; }

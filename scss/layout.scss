@@ -33,6 +33,27 @@
 /* Blocks
 ================================================== */
 
+article{
+  float: left;
+}
+
+aside{
+  float: left;
+}
+
+nav li {
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
 .hide {
   display: none;
 }
@@ -102,4 +123,5 @@ ul.large li, li p {
 img.scale-with-grid {
   max-width: 100%;
   height: auto; }
+
 
